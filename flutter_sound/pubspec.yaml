@@ -22,7 +22,7 @@ dependencies:
 # ============================================================================
   flutter_sound_platform_interface: 9.10.5
 #    path: ../flutter_sound_platform_interface # Flutter Sound Dir
-  flutter_sound_web: 9.10.5
+  # flutter_sound_web: 9.10.5
 #    path: ../flutter_sound_web # Flutter Sound Dir
 # ============================================================================
 
@@ -40,8 +40,8 @@ flutter:
         pluginClass: FlutterSound
       ios:
         pluginClass: FlutterSound
-      web:
-        default_package: flauto_web
+      # web:
+      #   default_package: flauto_web
         ####fileName: flutter_sound_web.dart
 
 
